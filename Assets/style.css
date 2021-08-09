@@ -127,3 +127,19 @@ section {
 /* About Me Styles End */
 
 /* Work Styles Start */
+.projects {
+    width:900px;
+    margin: 0px auto 70px auto;
+}
+.projects img{
+    width:50%;
+    float:right;
+}
+
+.projects img {
+    float: left;
+}
+
+.project-text {
+    float: left;
+}
