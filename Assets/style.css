@@ -7,6 +7,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(15, 155, 155);
 }
+
 /* Header Styles Start */
 header {
     padding: 20px 35px;
@@ -15,7 +16,7 @@ header {
     flex-wrap: wrap;
     top: 0;
     justify-content: space-between;
-    width: 100%;
+    width: 98.8%;
 }
 
 header a {
@@ -91,11 +92,19 @@ section {
     width: 96.1%;
 }
 
+.Me {
+    width: 60%;
+    margin-left: 0px 0px 0px 30px;
+    width: 550px;
+    height: 750px;
+}
+
 .hero-image {
     width: auto;
     border-color: whitesmoke;
     margin: 3.5%
 }
+
 .hero-cta {
     width: 60%;
     margin: 2.5%;
@@ -104,6 +113,7 @@ section {
 .hero-cta h3 {
     font-style: bold;
     font-size: 55px;
+    text-align: center;
 }
 /* Hero Styles End
 
@@ -125,6 +135,7 @@ section {
 }
 
 .flex-row p {
+    padding-top: 50px;
     text-align: center;
     font-size: 26px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -133,17 +144,25 @@ section {
 
 /* Work Styles Start */
 .projects {
-    width:900px;
     margin: 0px auto 70px auto;
 }
-.projects img{
-    width:50%;
-    float:right;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+.main-project {
+    width: 100%;
 }
 
-.projects img {
-    float: left;
+.secondary {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.art {
+    display: flex;
+}
+
+.art::before {
+    -webkit-filter: saturate(100%);
+    filter: saturate(150%);
 }
 
 .project-text {
@@ -157,12 +176,23 @@ section {
     border-color: rgb(25, 119, 119);
     border-radius: 50%;
 }
+
+.information ul li {
+    display: inline;
+    padding: 20px;
+
+}
+
 .information ul li a {
     font-style: italic;
     font-weight: 900;
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 /* Contact Me Styles End */
-
-/* Resume Styles Start
