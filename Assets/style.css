@@ -48,6 +48,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.60vw;
 }
+
+header nav ul li a:hover {
+    background: silver;
+    color: rgb(25, 119, 119);
+    border-radius: 15px;
+    text-shadow: none;
+}
 /* Header Styles End */
 
 /* Footer Styles Start */
@@ -147,26 +154,46 @@ section {
     margin: 0px auto 70px auto;
 }
 
+.main-project:hover {
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.projects h3 {
+    font-size: 40px;
+}
+
+.projects h4 {
+    font-size: 30px;
+}
 .main-project {
     width: 100%;
 }
 
 .secondary {
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    justify-content: space-between;
 }
 
 .art {
     display: flex;
 }
 
-.art::before {
-    -webkit-filter: saturate(100%);
-    filter: saturate(150%);
+.second:hover {
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
-.project-text {
-    float: left;
+.last:hover {
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 /* Work Styles End */
 
